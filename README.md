@@ -28,25 +28,35 @@ CartIQ is an intelligent shopping assistant that helps users make healthier, cos
 
 ## 🚀 Getting Started
 
-1. Clone the Repository
+1. Clone the Repository -
+   
 git clone https://github.com/your-username/cartiq.git
+
 cd cartiq
 
-2. Install Node.js Backend
+2. Install Node.js Backend-
 
 cd backend
+
 npm install
 
-3. Setup Environment Variables
+3. Setup Environment Variables-
 Create .env inside /backend:
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_secret_key
 
-4. Start the Node Server
+4. Start the Node Server-
+   
 npm start
 
-5. Setup & Run FastAPI AI Service
+5. Setup & Run FastAPI AI Service-
+   
 Ensure Python & FastAPI are installed:
+
 pip install fastapi uvicorn
+
 Run the AI service:
+
 uvicorn main:app --reload
