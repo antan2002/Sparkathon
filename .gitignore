@@ -1,0 +1,33 @@
+# === Node.js (backend) ===
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/*.log
+
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+*.db
+
+# Python logs
+*.pid
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs & editors ===
+.vscode/
+.idea/
+
+# === Build artifacts ===
+dist/
+build/
+
+backend/node_modules/
