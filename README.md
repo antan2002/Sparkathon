@@ -59,4 +59,4 @@ pip install fastapi uvicorn
 
 Run the AI service:
 
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
